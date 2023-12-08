@@ -19,7 +19,7 @@ public class Javaalerts {
 		// we need to tell our driver to switchto() these alerts in the below way
 		// We can accept, reject the alerts based on the popup and selenium allows us to
 		// perform those action
-		// based on the way selenium see it. Selenium see those as +ve or -ve opitons
+		// based on the way selenium sees it. Selenium sees them as +ve or -ve options
 		// and selects it
 		driver.switchTo().alert().accept();
 		//driver.switchTo().alert().dismiss(); Dismisses the pop up 
