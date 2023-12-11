@@ -30,6 +30,7 @@ public class Checkboxes extends A{
 		
 		cb.validateTextIsPresent(footerPageText, "Powered by Elemental Selenium");
 		
+		cb.navigateBack();
 		
 		Thread.sleep(4000);
 		cb.quitDriver();
