@@ -15,7 +15,7 @@ public class CoreJavaBrushUp2 {
 		
 		ArrayList al=new ArrayList(); //here we created an object 'al' to access the methods of the class
 		//ArrayList
-		
+		String k= new String();
 		//To make an ArrayList store only a specific type of data, we specify the data type after it as below:
 		ArrayList<String> als=new ArrayList(); //here we created an object 'als' to access the methods of
 		//the class ArrayList
@@ -25,8 +25,10 @@ public class CoreJavaBrushUp2 {
 							//size of the ArrayList will keep increasing dynamically
 		als.add("Beta");
 		als.add("Delta");
+		als.add(k);
 		
 		System.out.println(als.get(2));//obj.get() method of ArrayList helps in extracting data in ArrayList
+		System.out.println(als.get(3)+" -Value is null here");
 		
 		for(int i=0;i<als.size(); i++) { //in ArrayList we use obj.size() and NOT obj.length().
 			System.out.print(als.get(i)+","); //To Extract values of ArrayList we use obj.get()".

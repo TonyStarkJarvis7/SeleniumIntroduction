@@ -13,7 +13,7 @@ public class Frames {
 		driver.get("https://jqueryui.com/droppable/");
 		
 		// driver.switchTo().frame(0); Switching to frame by indexvalue->driver switches to frame 1 of n frames in the webPage
-		//But this is not suggested as later on the developer adds an other frame then this might fail
+		//But this is not suggested as later when the developer adds an other frame then this might fail
 		//TO KNOW THE NUMBER OF FRAMES IN A WEBPAGE
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
 		
